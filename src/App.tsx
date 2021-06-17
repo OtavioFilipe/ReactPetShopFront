@@ -1,8 +1,17 @@
 import React from 'react';
+import { Fornecedores } from './pages/fornecedores';
+import { Produtos } from './pages/produtos';
 
 function App() {
   return (
-    <h1>Meu primeiro react!</h1>
+    <div>
+    <Fornecedores>
+      <h1>Qualquer coisa!</h1>
+      <h1>Qualquer coisa!</h1>
+      <h1>Qualquer coisa!</h1>
+    </Fornecedores>
+    <Produtos/>
+    </div>
   );
 }
 
